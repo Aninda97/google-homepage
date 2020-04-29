@@ -8,15 +8,15 @@
 
 #Sign_in {
     background-attachment: relative;
-    background-color: blue;
+    background-color: rgb(5, 5, 211);
     color: white;
 }
 
-.footer {
-background-color: grey;
-color: rgb(53, 51, 51)
-
+#left_nav {
+    top: 10px;
+    position: relative;
 }
+
 
 #google_search {
     background-color: grey;
@@ -48,3 +48,9 @@ color: rgb(53, 51, 51)
     color: black;
 }
 
+.footer {
+    background-color: grey;
+    color: rgb(53, 51, 51)
+    flex-direction: row;
+    
+    }
