@@ -1,0 +1,50 @@
+#nav-link {
+    flex-direction: row;
+    font-family: arial, sans-serif;
+    padding-left: 15em;
+    padding-top: 15em;
+    border-radius: 4px;
+}
+
+#Sign_in {
+    background-attachment: relative;
+    background-color: blue;
+    color: white;
+}
+
+.footer {
+background-color: grey;
+color: rgb(53, 51, 51)
+
+}
+
+#google_search {
+    background-color: grey;
+    color: rgb(53, 51, 51);
+    font-family: arial, sans-serif;
+    padding: 10em;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#google_search:hover {
+    border: 1px solid;
+    color: black;
+
+}
+
+#Im_feeling_lucky {
+    background-color: grey;
+    color: rgb(53, 51, 51);
+    font-family: arial, sans-serif;
+    padding: 10em;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+#Im_feeling_lucky:hover {
+    border: 1px solid;
+    color: black;
+}
+
