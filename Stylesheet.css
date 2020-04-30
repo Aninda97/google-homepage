@@ -2,19 +2,17 @@ main {
     font-family: arial, sans-serif;
 }
 
+body {
+
+  margin: auto;
+  padding-top: 0px;
+}
 
 #nav-link {
     flex-direction: row;
     font-family: arial, sans-serif;
-    padding-left: 15em;
-    padding-top: 15em;
-    border-radius: 4px;
-}
-
-#Sign_in {
-    background-attachment: relative;
-    background-color: rgb(5, 5, 211);
-    color: white;
+    font-size: 15px;  
+    
 }
 
 #left_nav {
@@ -22,6 +20,8 @@ main {
     position: relative;
     float: left;
     text-align: center;
+    text-decoration: none;
+    
 }
 
 #right_nav {
@@ -31,30 +31,41 @@ main {
     text-align: center;
 }
 
+#Sign_in {
+    margin: 10px;
+    background-color: #0188BF;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 12px 20px 12px 20px;
+    font-weight: bold;
+    font-size: 12px;
+   
+    
+}
 
 #google-logo {
-    margin: 0
-    padding: top 109px;
+    margin: 0;
+    padding-top: 109px;
+    padding-left: 450px;
     width: 272;
 
 }
 
-.button {
-    background-color: blanchedalmond;
-    color: rgb(53, 51, 51);
-    border: none;
-    padding: 10px 10px;
-    text-align: text-align: center;
-
+#search_bar {
+  padding: 10px 150px 10px 150px;
+  position: relative;
+  border-radius: 10px;
+  margin-left: 35%;
 }
 
 #google_search {
-    background-color: grey;
-    color: rgb(53, 51, 51);
+    background-color: #DFDFDF;
+    color: #5E5E5E;
     font-family: arial, sans-serif;
-    padding: 10em;
+    padding: 10px 15px 10px 15px;
     text-align: center;
     border-radius: 4px;
+    font-size: 15px;
 }
 
 #google_search:hover {
@@ -64,12 +75,13 @@ main {
 }
 
 #Im_feeling_lucky {
-    background-color: grey;
-    color: rgb(53, 51, 51);
+    background-color: #DFDFDF;
+    color: #5E5E5E;
     font-family: arial, sans-serif;
-    padding: 10em;
+    padding: 10px 15px 10px 15px;
     text-align: center;
     border-radius: 4px;
+    font-size: 15px;
 
 }
 
@@ -79,20 +91,32 @@ main {
 }
 
 footer {
-    background-color: grey;
-    color: rgb(53, 51, 51)
+    background-color: #DFDFDF;
+    color: #5E5E5E;
     flex-direction: row;
     text-align: center;
-    font-family: arial, sans-serif;
+    font-family: arial, sans-serif; 
+    font-size: 15px;
     
-    }
+    
+  }
 
-body {
+#left_footer {
+    top: 10px;
+    position: relative;
+    float: left;
+    text-align: center;
+}
 
-margin: auto;
-padding-top: 109px;
+#right_footer {
+    top: 10px;
+    position: relative;
+    float: right;
+    text-align: center;
 }
 
 li {
     float: left;
 }
+
+
