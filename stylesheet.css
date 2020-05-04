@@ -12,7 +12,13 @@ body {
     flex-direction: row;
     font-family: arial, sans-serif;
     font-size: 15px;  
+    olor: black;
     
+}
+
+#nav-link a {
+    padding: 12px 0px;
+    margin: 0 12px;
 }
 
 #left_nav {
@@ -21,6 +27,7 @@ body {
     float: left;
     text-align: center;
     text-decoration: none;
+    color: inherit;
     
 }
 
@@ -29,6 +36,7 @@ body {
     position: relative;
     float: right;
     text-align: center;
+    color: inherit;
 }
 
 #Sign_in {
@@ -58,7 +66,7 @@ body {
   margin-left: 35%;
 }
 
-#google_search {
+.button {
     background-color: #DFDFDF;
     color: #5E5E5E;
     font-family: arial, sans-serif;
@@ -68,26 +76,10 @@ body {
     font-size: 15px;
 }
 
-#google_search:hover {
+.button:hover {
     border: 1px solid;
     color: black;
 
-}
-
-#Im_feeling_lucky {
-    background-color: #DFDFDF;
-    color: #5E5E5E;
-    font-family: arial, sans-serif;
-    padding: 10px 15px 10px 15px;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 15px;
-
-}
-
-#Im_feeling_lucky:hover {
-    border: 1px solid;
-    color: black;
 }
 
 footer {
@@ -97,6 +89,7 @@ footer {
     text-align: center;
     font-family: arial, sans-serif; 
     font-size: 15px;
+
     
     
   }
@@ -106,13 +99,14 @@ footer {
     position: relative;
     float: left;
     text-align: center;
-}
+    color: inherit;
 
 #right_footer {
     top: 10px;
     position: relative;
     float: right;
     text-align: center;
+    color: inherit;
 }
 
 li {
