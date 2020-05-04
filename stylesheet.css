@@ -66,10 +66,10 @@ li {
 }
 
 #google-logo {
-    margin: 0;
+    margin: 0 auto;
     padding-top: 109px;
-    padding-left: 450px;
-    width: 272;
+    display: box;
+
 
 }
 
@@ -77,7 +77,9 @@ li {
   padding: 10px 150px 10px 150px;
   position: relative;
   border-radius: 10px;
-  margin-left: 35%;
+
+  display: block;
+  margin: auto;
 }
 
 .button {
