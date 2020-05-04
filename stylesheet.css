@@ -97,8 +97,12 @@ footer {
     font-family: arial, sans-serif; 
     font-size: 15px;
     margin: 0px;
+    width: 100%;
     padding: 15px;
     border: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     
   }
 
