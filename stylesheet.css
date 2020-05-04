@@ -32,7 +32,7 @@ li {
 }
 
 #left_nav {
-    top: 10px;
+   
     position: relative;
     float: left;
     text-align: center;
@@ -42,7 +42,7 @@ li {
 }
 
 #right_nav {
-    top: 10px;
+   
     position: relative;
     float: right;
     text-align: center;
@@ -53,7 +53,7 @@ li {
 
 #Sign_in {
     margin: 10px;
-    background-color: ##4c8bf5;
+    background-color: #4c8bf5;
     color: #FFFFFF;
     border-radius: 2px;
     padding: 10px 15px;;
@@ -119,6 +119,8 @@ footer {
     float: left;
     text-align: center;
     color: inherit;
+    padding: 15px;
+}
 
 #right_footer {
     top: 10px;
@@ -126,6 +128,7 @@ footer {
     float: right;
     text-align: center;
     color: inherit;
+    padding: 15px;
 }
 
 
