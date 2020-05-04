@@ -8,6 +8,12 @@ body {
   padding-top: 0px;
 }
 
+li {
+    float: left;
+    list-style: none;
+}
+
+
 #nav-link {
     flex-direction: row;
     font-family: arial, sans-serif;
@@ -102,16 +108,12 @@ footer {
     text-align: center;
     color: inherit;
 
-    #right_footer {
+#right_footer {
     top: 10px;
     position: relative;
     float: right;
     text-align: center;
     color: inherit;
-}
-
-li {
-    float: left;
 }
 
 
