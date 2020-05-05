@@ -12,13 +12,13 @@ li {
     float: left;
     list-style: none;
     margin: auto;
-    border: 0;
-    padding: 0;
-}
+ }
 
 
 .li-nav {
-    padding: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 13px;
 }
 
 #nav-link {
@@ -58,7 +58,6 @@ li {
 
 
 #Sign_in {
-    margin: 10px;
     background-color: #4c8bf5;
     color: #FFFFFF;
     border-radius: 2px;
@@ -110,13 +109,10 @@ footer {
     text-align: center;
     font-family: arial, sans-serif; 
     font-size: 15px;
-    margin: 0;
     width: 100%;
-    padding: 0;
-    border: 0;
     position: fixed;
     bottom: 0;
-    left: 0;
+
     
     
   }
@@ -127,25 +123,25 @@ footer {
   }
 
 .li-footer {
-
+    padding-left: 27px;
+    font-size: 14px;
 }
 
 #left_footer {
-    top: 10px;
+    
     position: relative;
     float: left;
     text-align: center;
     color: inherit;
-    padding: 15px;
+    padding: 3px 15px;
 }
 
 #right_footer {
-    top: 10px;
+  
     position: relative;
     float: right;
     text-align: center;
     color: inherit;
-    padding: 15px;
-}
+    padding: 3px 15px;
 
 
