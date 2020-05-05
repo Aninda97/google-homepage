@@ -94,6 +94,11 @@ li {
   border-radius: 10px;
   display: block;
   margin: auto;
+  margin-top: 30px;
+}
+
+#search_bar :hover {
+    box-shadow: darkgrey;
 }
 
 .button {
@@ -105,6 +110,7 @@ li {
     border-radius: 4px;
     font-size: 15px;
     border: 1px solid #f2f2f2;
+    margin-right: 10px;
 }
 
 .button:hover {
