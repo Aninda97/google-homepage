@@ -32,6 +32,8 @@ li {
 #nav-link a {
     padding: 12px 0px;
     margin: 0 12px;
+    text-decoration: none;
+    color: black;
    
 }
 
@@ -108,19 +110,24 @@ footer {
     text-align: center;
     font-family: arial, sans-serif; 
     font-size: 15px;
-    margin: 0px;
+    margin: 0;
     width: 100%;
-    padding: 5px;
-    border: 50px;
+    padding: 0;
+    border: 0;
     position: fixed;
     bottom: 0;
     left: 0;
     
+    
   }
 
+  footer a {
+    text-decoration: none;
+    color: black;
+  }
 
 .li-footer {
-    
+
 }
 
 #left_footer {
