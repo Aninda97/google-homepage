@@ -101,7 +101,7 @@ li {
 }
 
 .button {
-    background-color: #FFF;
+    background-color: #D3D3D3;
     color: #5E5E5E;
     font-family: arial, sans-serif;
     padding: 10px 15px 10px 15px;
@@ -120,7 +120,7 @@ li {
 }
 
 footer {
-    background-color: #FFF;
+    background-color:	#D3D3D3;
     color: #5E5E5E;
     flex-direction: row;
     text-align: center;
@@ -163,5 +163,4 @@ footer {
     text-align: center;
     color: inherit;
     padding: 3px 15px;
-
-
+}
